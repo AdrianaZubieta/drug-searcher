@@ -67,15 +67,3 @@ def brand():
 
 if __name__ == '__main__':
     app.run(debug=True)
-    
-
-# from drug_search import drug_searching
-
-
-
-# @app.route('/music/<artist>')
-# def make_artist_list(artist):
-#     api_key = make_key()
-#     rec = RecommenderSystem(artist, api_key)
-#     artist_list = rec.recommender()
-#     return render_template('similar_artists.html', artists = artist_list.to_html()) #converts data frame to html
