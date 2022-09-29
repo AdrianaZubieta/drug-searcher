@@ -1,0 +1,35 @@
+<body>
+    {% extends 'header.html' %}
+
+
+{% block content %}
+<div class = "container text-center">
+   <h1>Welcome to Drug Searcher app.</h1>
+    
+<div class="text-success">
+  <hr class="border border-primary border-3 opacity-75">
+</div>
+    
+<div class = "container "> 
+    <h2>You can search information on a drug or medication by: </h2>
+</div>
+    
+    <div class="card-group">
+    <div class="card">
+      <img src="/static/ibuprofen.jpg"  class="w-50 mx-auto d-block" alt="...">
+      <div class="card-body">
+    <p class="card-text"> Its GENERIC name which is the medication name as used in the pharmacopoeia; it cannot be a trademark. The name is typically given by the inventor or discoverer of the drug, but must be approved by a national or international naming authority.</p>
+    <a href="/generic_name" class="/generic_name">Generic Name</a>
+ </div>
+ </div>
+    <div class="card">
+    <img src="/static/advil.jpg"  class="w-50 mx-auto d-block" alt="...">
+    <div class="card-body">
+    <p class="card-text">or by a BRAND which is the arbitrari adopted name given by the manufacturer.</p>
+    <a href="/brand_name" class="/brand_name">Brand Name</a>
+  </div>
+  </div>
+  
+{% endblock %}
+    
+</body>  
