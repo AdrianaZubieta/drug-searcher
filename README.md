@@ -13,5 +13,4 @@ or a text in case of interactions.
 If there are misspellings or the API doesn't find results 
 an alert is shown.
 
-
-
+Heroku: https://drug-searcher.herokuapp.com/
